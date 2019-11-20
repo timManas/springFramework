@@ -1,0 +1,32 @@
+Notes
+
+1. Go to "start.spring.io" to initialize String application
+2. When you download the filese you will see a mvnw file. This is the maven wrapper.
+This means we can execute maven  commands without having to install maven directly
+3. To run maven file, we can use ./mvnw spring-boot:run
+However make sure you have mvn wrapper installed
+
+4. JPA - Java Persistence API
+- Official api for working with relational data in java
+- Only a specification and not concrete implementation
+- One API will support many relational databases 
+5. What does JPA do ?
+- Acts a bridge between Java object world to how data is stored in relational databases
+
+6. ORM - Object relational mapping
+
+7. JPA = Hibernate DB. Some of which are supported are:
+Oracle
+DB2
+SQL Server
+mySQL
+Sybase 
+PostgresSQL
+H2 ...
+
+8. javax.persistence is the default JPA. Do not use the hibernate version
+
+9. To log on connect this on your browser
+http://localhost:8080/h2-console/
+username: jdbc:h2:mem:testdb
+password: n/a
