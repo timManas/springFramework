@@ -30,3 +30,22 @@ H2 ...
 http://localhost:8080/h2-console/
 username: jdbc:h2:mem:testdb
 password: n/a
+
+10. Spring Data Repositories 
+- Provides an implmentation of the repository pattern
+- A repository has methods for CRUD Operations and allows interchangeability of implementations
+ex. going from SQL to mySQL	
+
+11. Spring Data JPA is subset of Spring data projects
+- Uses hibernate for persistence to supported RDBA
+- Extends Java repository interface
+- Spring Data JPA provides implementation at RunTime
+- No SQL Required
+- At runtime, the code is injected and will handle all the heavy lifting
+- All you need to do is write the interface  
+ex.
+public interface BookRepository extends CrudRepository<Book, Long> {
+}
+
+- This has complete CRUD functionality !!!!! 
+
