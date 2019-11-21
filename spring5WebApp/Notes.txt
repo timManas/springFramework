@@ -49,3 +49,8 @@ public interface BookRepository extends CrudRepository<Book, Long> {
 
 - This has complete CRUD functionality !!!!! 
 
+12. Spring Controllers
+- Annotate controller class with @Constroller
+- This will register the class as a Spring bean and as a controller in Spring MVC
+- To map methods to http request path use @RequestMapping 
+
