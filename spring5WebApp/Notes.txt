@@ -54,3 +54,13 @@ public interface BookRepository extends CrudRepository<Book, Long> {
 - This will register the class as a Spring bean and as a controller in Spring MVC
 - To map methods to http request path use @RequestMapping 
 
+13. What are templates ?
+- Dynamic technology used to generate HTML 
+Ex. Pulling stuff from DB and push to Webpage 
+
+
+14. What is ThymeLeaf ?
+- It is a Java template engine
+- Natural templating engine which allows user to view templates in browser 
+- Good alternative to JSP because JSP suck =) 
+
